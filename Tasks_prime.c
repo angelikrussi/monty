@@ -1,5 +1,4 @@
 #include "monty.h"
-
 /**
  * _push - adds a node to thetop of the stack.
  * @stack: top of the stack.
