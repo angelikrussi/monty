@@ -1,0 +1,7 @@
+#!/bin/bash
+ sed -i  's/EMPTY_LINE/VOID_LINE/g'       *.c *.h
+ sed -i  's/COMMENT/REMARK/g'       *.c *.h
+ sed -i  's/CORRECT_USAGE/USE_CORRECT/g'       *.c *.h
+ sed -i  's/ASCCII_LLIMIT/ASCCII_END/g'       *.c *.h
+ sed -i  's/ERR_GETLINE/BUGLINE/g'     *.c *.h
+ 
